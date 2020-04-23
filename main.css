@@ -101,7 +101,7 @@ header{
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background: navy;
+  background: #362204;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1,0,0,1);
