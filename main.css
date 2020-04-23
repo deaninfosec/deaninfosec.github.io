@@ -85,6 +85,12 @@ img{
   letter-spacing: 1px;
 }
 
+.section-heading p{
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
 .has-margin-right{
   margin-right: 5rem;
 }
@@ -462,14 +468,6 @@ li{
 /* Start Contact */
 .contact{
   background-color: #16162d;
-}
-
-.contact h6{
-  letter-spacing: 1px;
-  font-size: 1.5rem;
-  font-weight: 300;
-  justify-content: center;
-  margin: auto;
 }
 /* End Contact */
 
