@@ -552,7 +552,7 @@ input[type="submit"]:hover{
 @media screen and (max-width: 768px){
   body{
     /* background: url(background.jpg) */
-    background: url(background4.jpg) no-repeat center fixed;
+    background: #16162d no-repeat center fixed;
     background-size: cover;
   }
 
@@ -615,7 +615,7 @@ input[type="submit"]:hover{
 @media screen and (max-width: 600px){
   body{
     /* background: url(background.jpg) */
-    background: url(background4.jpg) no-repeat center fixed;
+    background: #16162d no-repeat center fixed;
     background-size: cover;
   }
   
