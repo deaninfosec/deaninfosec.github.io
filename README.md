@@ -1,3 +1,3 @@
-# GloryI.github.io
+# deaninfosec.github.io
 
 Personal Portfolio
