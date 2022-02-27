@@ -46,7 +46,7 @@
         </ul>
       </nav>
       <div class="landing-text">
-        <h1>Dean_infosec</h1>
+        <h1 id="app">Dean_infosec</h1>
         <h6>Securing the digital space. One click at a time.</h6>
       </div>
     </header>
@@ -312,10 +312,26 @@
     crossorigin="anonymous"></script>    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
+    <script src="core.js"></script>
     <script>AOS.init();</script>
     <script>
       let year = new Date().getFullYear();
       document.getElementById("year").innerHTML = year;
+      var app = document.getElementById('app');
+
+      var typewriter = new Typewriter(app, {
+       loop: true
+        });
+
+      typewriter.typeString('Dean_infosec')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('Dean_infosec')
+        .pauseFor(2500)
+        .deleteChars(7)
+        .typeString('<strong>infosec</strong>')
+        .pauseFor(2500)
+        .start();
     </script>
   </body>
 </html>
