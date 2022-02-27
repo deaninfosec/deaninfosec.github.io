@@ -289,7 +289,7 @@
     </section>
 
     <footer class="copyright">     
-      <p>&copy; 2020 Dean_infosec</p>
+      <p>&copy; <span id="year"></span> Dean_infosec</p>
     </footer>
     <script src="https://kit.fontawesome.com/9f6a73de23.js" crossorigin="anonymous"></script>
     <script src="//code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
@@ -297,5 +297,9 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
     <script>AOS.init();</script>
+    <script>
+      let year = new Date().getFullYear();
+      document.getElementById("year").innerHtml = year;
+    </script>
   </body>
 </html>
